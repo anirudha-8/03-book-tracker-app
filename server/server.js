@@ -4,14 +4,17 @@ import cors from "cors";
 
 const app = express();
 
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
+// middlewares
 dotenv.config();
-
+app.use(express.json());
 app.use(cors());
 
-app.get("/", (req, res) => res.json({ message: "API running" }));
+// routes
+app.get("/api", (req, res) => res.json({ message: "API running" }));
 
+// listening to the server
 app.listen(PORT, () =>
 	console.log(`Server started at: http://localhost:${PORT}`)
 );
