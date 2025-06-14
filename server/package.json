@@ -1,0 +1,19 @@
+{
+  "name": "book-tracker",
+  "version": "1.0.0",
+  "description": "A mini book tracker application, showcasing CRUD operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudha-8/03-book-tracker-app.git"
+  },
+  "author": "Anirudha Bele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirudha-8/03-book-tracker-app/issues"
+  },
+  "homepage": "https://github.com/anirudha-8/03-book-tracker-app#readme"
+}
