@@ -1,19 +1,27 @@
 {
-  "name": "book-tracker",
-  "version": "1.0.0",
-  "description": "A mini book tracker application, showcasing CRUD operations.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anirudha-8/03-book-tracker-app.git"
-  },
-  "author": "Anirudha Bele",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anirudha-8/03-book-tracker-app/issues"
-  },
-  "homepage": "https://github.com/anirudha-8/03-book-tracker-app#readme"
+	"name": "book-tracker",
+	"version": "1.0.0",
+	"description": "A mini book tracker application, showcasing CRUD operations.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anirudha-8/03-book-tracker-app.git"
+	},
+	"author": "Anirudha Bele",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/anirudha-8/03-book-tracker-app/issues"
+	},
+	"homepage": "https://github.com/anirudha-8/03-book-tracker-app#readme",
+	"keywords": [],
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.5.0",
+		"express": "^5.1.0",
+		"mongoose": "^8.15.2"
+	}
 }
