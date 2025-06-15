@@ -1,4 +1,7 @@
+import { useParams } from "react-router-dom";
+
 const EditBook = () => {
-	return <div>EditBook</div>;
+	const { id } = useParams();
+	return <div>Edit Book {id}</div>;
 };
 export default EditBook;
