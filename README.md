@@ -6,16 +6,23 @@ Users can add, edit, and delete books with their reading status and optional rat
 ## 🚀 Tech Stack
 
 - **Frontend:** React.js
+
 - **Backend:** Node.js, Express.js
+
 - **Database:** MongoDB (via Mongoose)
+
 - **API Communication:** Axios
 
 ## 📦 Features
 
 - Add new books
+
 - Edit existing book details
+
 - Delete books
+
 - Filter books by reading status
+
 - Responsive and clean UI
 
 ## 🛠️ Installation
